@@ -9,10 +9,12 @@ Each entry follows the same structure, containing seven list elements.  The firs
 
 ![data_structure.png](https://github.com/benclark62/UFOs/blob/main/resources/data.png)
 
+#### State Filter Example
 With the five filters in place, a user will manually key in the data on which they would like the table to focus.  In the first example, a user would like to see all entries from California.  Entering “ca” into the “Enter State” field and hitting “enter” executes the filter.  By having the DevTools Console open, we can see that the key:value pair of “state:ca” was logged and the table was filtered to 30 entries.
 
 ![ca_filter.png](https://github.com/benclark62/UFOs/blob/main/resources/ca_filter.png)
 
+#### State and Date Filter Example
 If this user was only interested in researching California entries from a specific date, the user would then update the “Enter Date” filter.  In this example, the user was only interested in January 9, 2010.  In the Console, you can see that both the datetime (“1/9/2010”) and state (“ca”) filters are applied, leaving only two entries in the table.
 
 ![ca__date_filter.png](https://github.com/benclark62/UFOs/blob/main/resources/ca_date_filter.png)
